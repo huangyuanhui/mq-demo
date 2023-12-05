@@ -3,3 +3,11 @@ logging:
     dateformat: MM-dd HH:mm:ss:SSS
   level:
     cn.itcast.mq: debug
+
+spring:
+  rabbitmq:
+    host: 120.77.168.189
+    port: 5672
+    username: hyh
+    password: 123456
+    virtual-host: /

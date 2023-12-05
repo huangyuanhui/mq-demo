@@ -3,3 +3,11 @@ logging:
     dateformat: MM-dd HH:mm:ss:SSS
   level:
     cn.itcast.mq: debug
+
+spring:
+  rabbitmq:
+    host: 120.77.168.189  # RabbitMQ地址
+    port: 5672  # RabbitMQ端口
+    username: hyh # 用户名
+    password: 123456  # 密码
+    virtual-host: / # 虚拟主机

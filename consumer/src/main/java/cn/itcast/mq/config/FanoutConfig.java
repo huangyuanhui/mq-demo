@@ -41,4 +41,10 @@ public class FanoutConfig {
         // 绑定队列fanoutQueue2到交换机fanoutExchange
         return BindingBuilder.bind(fanoutQueue2).to(fanoutExchange);
     }
+
+
+    @Bean
+    public Queue objectQueue() {
+        return new Queue("object.queue");
+    }
 }
